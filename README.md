@@ -34,8 +34,8 @@ kubectl login sdrozdkov-oidc
 ```
 
 After command executed browser will be opened with redirect to OpenID Connect Provider login page.  
-Tokens into your .kube/config will be replaced after succesful at your provider.
+Tokens into your .kube/config will be replaced after succesful authenticate at your provider.
 
 ## TODO
 
-* Add initial create new user profile into .kube/config based on command line args or something else.
+* Add creation new user profile into .kube/config based on command line args or something else.
